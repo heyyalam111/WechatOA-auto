@@ -1,0 +1,23 @@
+{
+  "name": "wechat-publish",
+  "version": "1.0.0",
+  "description": "将 Markdown 文章发布到微信公众号草稿箱",
+  "main": "main.js",
+  "scripts": {
+    "publish": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "markdown",
+    "publish",
+    "公众号"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "juice": "^10.0.0",
+    "marked": "^12.0.0"
+  }
+}
